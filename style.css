@@ -7,6 +7,17 @@ nav {
     margin: 0;
 }
 
-#education, #skills {
+#education, #skills , #workex{
     background-color: #F5F5F5;
+}
+
+.feature {
+    width: 300px;
+}
+
+#myCarousel {
+    /* margin-left: 100px;
+    margin-right: 200px; */
+    width: 100vh;
+    justify-content: center;
 }
