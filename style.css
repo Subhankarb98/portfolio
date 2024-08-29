@@ -4,7 +4,9 @@ nav {
 
 #profile-pic {
     border: 5px solid black;
+    border-radius: 50%;
 }
+
 
 #overview {
     margin: 0;
