@@ -31,7 +31,7 @@
 
     <!--Overview-->
     <div  id = "overview" class="container-fluid">
-        <div class="row flex-lg-row-reverse align-items-center py-5 ">
+        <div class="row flex-lg-row-reverse align-items-center py-5 px-5">
           <div class="col-10 col-sm-8 col-lg-6">
             <img src="profil.png" class="d-block mx-lg-auto img-fluid shadow-sm my-5" alt="profile pic" width="300" loading="lazy">
           </div>
@@ -43,9 +43,9 @@
     </div>  
 
     <!--Education--> 
-    <div class="container-fluid px-4 py-5" id="education">
+    <div class="container-fluid px-5 py-5" id="education">
         <h2 class="pb-2 border-bottom">EDUCATION</h2>
-        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="row g-4 py-5 row-cols-sm-2 row-cols-lg-3 justify-content-center">
           <div class="col d-flex align-items-start">
             <div class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
                 <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-backpack2" viewBox="0 0 16 16">
@@ -56,6 +56,7 @@
                 </div>
             <div>
               <h3 class="fs-2 text-body-emphasis">B. Tech</h3>
+              <p>Chemical Engineering</p>
               <p>Jadavpur Univeristy, Kolkata, West Bengal</p>
             </div>
           </div>
@@ -68,6 +69,7 @@
                 </div>
             <div>
               <h3 class="fs-2 text-body-emphasis">M. Tech</h3>
+              <p>Chemical Engineering</p>
               <p>Indian Institute of Technology, Kharagpur, West Bengal</p>
             </div>
           </div>
@@ -75,9 +77,9 @@
       </div>
 
     <!--SKILLS-->
-    <div class="container-fluid px-4 py-5" id="skills">
+    <div class="container-fluid px-5 py-5" id="skills">
         <h2 class="pb-2 border-bottom">SKILLS</h2>
-        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="row g-4 py-5 row-cols-2 row-cols-lg-3 justify-content-center">
           <div class="feature col">
             <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
                 <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
@@ -125,6 +127,66 @@
         </div>
       </div>
 
+
+    <!--WorkExperience-->
+    <div class="container-fluid px-5 py-5" id="workex">
+        <h2 class="pb-2 border-bottom">WORK EXPERIENCE</h2>    
+        <div id="myCarousel" class="carousel justify-content-center mb-6 mt-2" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4" class=""></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item">
+            <img class="bd-placeholder-img" width="100%" height="300px" src="./fast-charging.jpg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></img>
+            <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg> -->
+            <div class="container">
+                <div class="carousel-caption text-start">
+                <h1>Fast Charging.</h1>
+                <p class="opacity-75">Some representative placeholder content for the first slide of the carousel.</p>
+                </div>
+            </div>
+            </div>
+            <div class="carousel-item active">
+            <img class="bd-placeholder-img" width="100%" height="300px" src="./ann.avif" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></img>
+            <div class="container">
+                <div class="carousel-caption text-start">
+                <h1>Physics Informed Neural Network.</h1>
+                <p>Some representative placeholder content for the second slide of the carousel.</p>
+                </div>  
+            </div>
+            </div>
+            <div class="carousel-item">
+                <img class="bd-placeholder-img" width="100%" height="300px" src="./chatbot.jpg  " aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></img>
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                    <h1>Chatbot.</h1>
+                    <p>Some representative placeholder content for the third slide of this carousel.</p>
+                    </div>
+                </div>
+                </div>
+            <div class="carousel-item">
+            <img class="bd-placeholder-img" width="100%" height="300px" src="./soh.jpg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></img>
+            <div class="container">
+                <div class="carousel-caption text-start">
+                <h1>State-of-Health Estimation.</h1>
+                <p>Some representative placeholder content for the third slide of this carousel.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
