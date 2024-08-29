@@ -2,10 +2,13 @@ nav {
     background-color: #17b8ba;
 }
 
+#profile-pic {
+    border: 5px solid black;
+}
 
 #overview {
     margin: 0;
-    --s: 82px; /* control the size */
+    --s: 200px; /* control the size */
     --c1: #17b8ba;
     --c2: #48CFCB;
     --c3: #67dad6;
