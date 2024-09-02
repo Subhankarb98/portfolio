@@ -25,7 +25,7 @@ nav {
     background-size: calc(1.732*var(--s)) var(--s);
   }
 
-#education, #skills , #workex{
+#education, #skills , #workex, #interests{
     background-color: #F5F5F5;
 }
 
