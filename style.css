@@ -33,9 +33,16 @@ nav {
     width: 300px;
 }
 
-#myCarousel {
-    /* margin-left: 100px;
-    margin-right: 200px; */
-    /* width: 100vh; */
+.carousel-inner {
+    /* display: flex; */
     justify-content: center;
 }
+
+#sar-emobility {
+    flex: 2;
+}
+
+#myCarousel {
+    flex:3;
+}
+  
