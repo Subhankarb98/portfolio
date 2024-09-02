@@ -1,15 +1,37 @@
-nav {
+/* nav {
     background-color: #17b8ba;
+} */
+
+.top{
+	/* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+    background: linear-gradient(-45deg, #6a05ed, #a21919, #ef7008, #ffffff);
+
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	/* height: 100vh; */
 }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 
 #profile-pic {
     border: 5px solid black;
     border-radius: 50%;
 }
 
-#overview {
+/* #overview {
     margin: 0;
-    --s: 200px; /* control the size */
+    --s: 200px;
     --c1: #17b8ba;
     --c2: #48CFCB;
     --c3: #67dad6;
@@ -23,7 +45,7 @@ nav {
       linear-gradient(90deg,var(--c1)   calc(100%/6),var(--c2) 0 50%,
                             var(--c1) 0 calc(500%/6),var(--c2) 0);
     background-size: calc(1.732*var(--s)) var(--s);
-  }
+  } */
 
 #education, #skills , #workex, #interests, #footer{
     background-color: #F5F5F5;
