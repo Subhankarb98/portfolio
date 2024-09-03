@@ -16,3 +16,8 @@ body{
 		background-position: 0% 50%;
 	}
 }
+
+h1 {
+    font-size: 100px;
+    font-family: "Poppins", sans-serif;
+}
