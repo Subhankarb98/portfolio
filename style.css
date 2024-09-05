@@ -47,7 +47,7 @@
     background-size: calc(1.732*var(--s)) var(--s);
   } */
 
-#education, #skills , #workex, #interests, #footer{
+#education, #skills , #workex, #interests, #footer, #certificate{
     background-color: #F5F5F5;
 }
 
@@ -66,5 +66,9 @@
 
 #myCarousel {
     flex:3;
+}
+
+h2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
   
