@@ -74,11 +74,4 @@ h2 {
   
 .top {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-/*     height: 100vh; */
-}
-
-@media only screen and (min-width: 600px) {
-    .top {
-      height: 100vh;
-    }
 }
