@@ -16,3 +16,9 @@ $("#profile-pic").mouseover(function() {
     }).mouseleave(function() {
         $(this).css("border-color","black");
 });
+
+$(".skills .feature, #certificate h3, .course").mouseover(function() {
+    $(this).css("color","#900046");
+    }).mouseleave(function() {
+        $(this).css("color","black");
+});
