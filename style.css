@@ -1,7 +1,3 @@
-/* nav {
-    background-color: #17b8ba;
-} */
-
 .top, #footer{
 	/* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
     background: linear-gradient(-45deg, #6a05ed, #a21919, #ef7008, #ffffff);
@@ -47,9 +43,9 @@
     background-size: calc(1.732*var(--s)) var(--s);
   } */
 
-#education, #skills , #workex, #interests, #footer, #certificate{
+/* #education, #skills , #workex, #interests, #footer, #certificate{
     background-color: #F5F5F5;
-}
+} */
 
 .feature {
     width: 300px;
@@ -60,7 +56,7 @@
     justify-content: center;
 }
 
-#sar-emobility {
+#sar-emobility {    
     flex: 2;
 }
 
@@ -74,4 +70,15 @@ h2 {
   
 .top {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* height: 100vh; */
+}
+
+body {
+    background-image: url("./base.jpg");
+    background-attachment: fixed;
+}
+
+.card {
+    background-color: transparent;
+    border: 0px;
 }
