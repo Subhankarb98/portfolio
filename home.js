@@ -4,7 +4,7 @@ $(".nav-item").mouseover(function() {
    $(this).css("box-shadow", "0px 0px 0px #555");
 });
 
-$(".intro h1, .intro h5").mouseover(function() {
+$(".intro h1, .intro h5, footer span").mouseover(function() {
     $(this).css("color","#F5F5F5");
     }).mouseleave(function() {
         $(this).css("color","black");
