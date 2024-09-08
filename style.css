@@ -82,3 +82,16 @@ body {
     background-color: transparent;
     border: 0px;
 }
+
+.hidden {
+    opacity: 0;
+    filter: blue(5px);
+    transform: translateX(-100%);
+    transition: all 1.5s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
