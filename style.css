@@ -90,6 +90,13 @@ body {
     transition: all 1.5s;
 }
 
+.hidden-right {
+    opacity: 0;
+    filter: blue(5px);
+    transform: translateX(100%);
+    transition: all 1.5s;
+}
+
 .show {
     opacity: 1;
     filter: blur(0);
