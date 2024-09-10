@@ -4,17 +4,22 @@ $(".nav-item").mouseover(function() {
    $(this).css("box-shadow", "0px 0px 0px #555");
 });
 
-$(".intro h1, .intro h5, footer span").mouseover(function() {
-    $(this).css("color","#F5F5F5");
+$(".intro h1").mouseover(function() {
+    $(this).css("text-shadow", "5px 3px black");
     }).mouseleave(function() {
-        $(this).css("color","black");
+        $(this).css("text-shadow","none")
 });
 
+$(".nav-item .nav-link, .intro h5").mouseover(function() {
+    $(this).css("text-shadow", "1px 1px black");
+    }).mouseleave(function() {
+        $(this).css("text-shadow","none")
+});
 
 $("#profile-pic").mouseover(function() {
-    $(this).css("border-color","#F5F5F5");
+    $(this).css("border","3px solid #F5F5F5");
     }).mouseleave(function() {
-        $(this).css("border-color","black");
+        $(this).css("border","6px solid #F5F5F5");
 });
 
 $(".skills .feature, #certificate h3, .course").mouseover(function() {
