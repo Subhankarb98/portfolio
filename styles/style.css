@@ -1,11 +1,12 @@
 .top, #footer{
 	/* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
-    background: linear-gradient(-45deg, #6a05ed, #a21919, #ef7008, #ffffff);
+    /* background: linear-gradient(-45deg, #9900ff, #562ef4, #ed1010, #fff52d);*/
+    background: linear-gradient(-45deg, #FB773C, #EB3678, #4F1787, #180161);
+    color: #F5F5F5;
 
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
-	/* height: 100vh; */
-}
+} 
 
 @keyframes gradient {
 	0% {
@@ -17,11 +18,11 @@
 	100% {
 		background-position: 0% 50%;
 	}
-}
+} 
 
 
 #profile-pic {
-    border: 5px solid black;
+    border: 6px solid #F5F5F5;
     border-radius: 50%;
 }
 
