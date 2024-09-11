@@ -1,5 +1,5 @@
-$("h1, main p").mouseover(function() {
-    $(this).css("color","#F5F5F5");
+$("h1").mouseover(function() {
+    $(this).css("text-shadow", "5px 3px black");
     }).mouseleave(function() {
-        $(this).css("color","black");
+        $(this).css("text-shadow","none")
 });
