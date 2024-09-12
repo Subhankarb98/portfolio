@@ -43,6 +43,11 @@ $(".linkedin").mouseover(function() {
     }).mouseleave(function() {
         $(this).css("background-color","#0A66C299");
 });
+$(".phone").mouseover(function() {
+    $(this).css("background-color","#797373");
+    }).mouseleave(function() {
+        $(this).css("background-color","#79737399");
+});
 
 
 const observer = new IntersectionObserver((entries) => {
