@@ -28,6 +28,23 @@ $(".skills .feature, #certificate h3, .course").mouseover(function() {
         $(this).css("color","black");
 });
 
+$(".email").mouseover(function() {
+    $(this).css("background-color","#BB001B");
+    }).mouseleave(function() {
+        $(this).css("background-color","#BB001B99");
+});
+$(".git").mouseover(function() {
+    $(this).css("background-color","#000000");
+    }).mouseleave(function() {
+        $(this).css("background-color","#00000099");
+});
+$(".linkedin").mouseover(function() {
+    $(this).css("background-color","#0A66C2");
+    }).mouseleave(function() {
+        $(this).css("background-color","#0A66C299");
+});
+
+
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         if (entry.isIntersecting) {
