@@ -57,3 +57,9 @@ const observer = new IntersectionObserver((entries) => {
 
 const hiddenElements = document.querySelectorAll(".hidden");
 hiddenElements.forEach((el) => observer.observe(el));  
+
+function copyText() {
+    phoneNumber = "+91-8334019698";
+    navigator.clipboard.writeText(phoneNumber);
+    alert("Copied phone number.");
+}
