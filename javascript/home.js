@@ -48,6 +48,12 @@ $(".phone").mouseover(function() {
     }).mouseleave(function() {
         $(this).css("background-color","#79737399");
 });
+$(".resume").mouseover(function() {
+    $(this).css("background-color","#ff2966");
+    }).mouseleave(function() {
+        $(this).css("background-color","#ff296699");
+});
+
 
 
 const observer = new IntersectionObserver((entries) => {
@@ -62,6 +68,7 @@ const observer = new IntersectionObserver((entries) => {
 
 const hiddenElements = document.querySelectorAll(".hidden");
 hiddenElements.forEach((el) => observer.observe(el));  
+
 
 function copyText() {
     phoneNumber = "+91-8334019698";
