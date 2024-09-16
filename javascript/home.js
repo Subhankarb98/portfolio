@@ -22,7 +22,7 @@ $("#profile-pic").mouseover(function() {
         $(this).css("border","6px solid #F5F5F5");
 });
 
-$(".skills .feature, #certificate h3, .course").mouseover(function() {
+$(".skills .feature, #certificate h3, .course, #workex a").mouseover(function() {
     $(this).css("color","#900046");
     }).mouseleave(function() {
         $(this).css("color","black");
